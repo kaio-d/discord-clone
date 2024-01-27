@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap");
 @import url("./reset.css");
 
+body {
+  background-color: #fff;
+}
+
 header {
   background-image: url("../imagens/header-mobile.png");
   background-repeat: no-repeat;
@@ -10,8 +14,14 @@ header {
   padding: 70px 0 70px 24px;
 }
 
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
 p {
-  color: #000;
+  color: #23272A;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -55,7 +65,21 @@ p {
   color: #fff;
 }
 
+main section {
+  margin-top: 40px;
+  padding: 40px 24px;
+  height: 505px;
+}
 
+main section h2 {
+  margin-bottom: 27px;
+}
 
+.section__two {
+  background-color: #f6f6f6;
+}
 
+.section__two .section__infomarcao {
+  width: 378px;
+}
 
