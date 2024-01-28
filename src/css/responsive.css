@@ -1,0 +1,37 @@
+@media screen and (min-width: 1280px) {
+  header {
+    max-width: 1280px;
+    height: 459px;
+    background-image: url("../imagens/desktop/header-desktop.png");
+    background-size: contain;
+    padding-top: 94px;
+  }
+
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__content h1 {
+    font-size: 3.5rem;
+  }
+
+  .header__content .header__content__descricao {
+    width: 757px;
+  }
+
+  .header__content__botoes {
+    flex-direction: row;
+  }
+
+  .header__content__botoes button {
+    width: 205px;
+    height: 44px;
+  }
+
+  .header__content__botoes button.abrir-no-navegador {
+    width: 281px;
+  }
+}
