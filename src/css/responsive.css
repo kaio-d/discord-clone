@@ -3,8 +3,13 @@
     max-width: 1280px;
     height: 459px;
     background-image: url("../imagens/desktop/header-desktop.png");
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     padding-top: 94px;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 
   .header__content {
@@ -34,4 +39,31 @@
   .header__content__botoes button.abrir-no-navegador {
     width: 281px;
   }
+
+  section {
+    display: flex;
+  }
+
+  .section__one, .section__two, .section__three {
+    align-items: center;
+  }
+
+  .section__one {
+    width: 971px;
+    justify-content: center;
+  }
+
+  .section__image__one {
+    content: url("../imagens/desktop/section-one.png");
+  }
+
+  .section__two {
+    flex-direction: row-reverse;
+  }
+
+  .section__imag__two {
+    content: url("../imagens/desktop/section-two.png");
+  }
+  
+     
 }
