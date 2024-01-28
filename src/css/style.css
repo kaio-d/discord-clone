@@ -3,13 +3,13 @@
 
 body {
   background-color: #fff;
+  min-width: 428px;
 }
 
 header {
   background-image: url("../imagens/header-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   height: 505px;
   padding: 70px 0 70px 24px;
 }
@@ -21,7 +21,7 @@ h2 {
 }
 
 p {
-  color: #23272A;
+  color: #23272a;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -66,7 +66,6 @@ p {
 }
 
 main section {
-  margin-top: 40px;
   padding: 40px 24px;
   height: 505px;
 }
@@ -75,7 +74,13 @@ main section h2 {
   margin-bottom: 27px;
 }
 
-.section__two {
+.section__one {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.section__two,
+.section_four {
   background-color: #f6f6f6;
 }
 
@@ -83,3 +88,15 @@ main section h2 {
   width: 378px;
 }
 
+
+.section_four h2 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+footer {
+  height: 150px;
+  margin-top: 40px;
+  background-color: #23272a;
+}
