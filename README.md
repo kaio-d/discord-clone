@@ -18,7 +18,7 @@ Projeto criado com o intuíto de praticarmos os conceitos de responsividade, par
 ## 📱 Mobile versão
 
 <p align="center">
-  <img alt="Tela Inicial" src="./.github/mobile.png" width="30%" height="800px">
+  <img alt="Tela Inicial" src="./.github/mobile.png" width="30%" height="1000px">
 </p>
 
 ## :memo: Licença
