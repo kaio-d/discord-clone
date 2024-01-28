@@ -95,8 +95,11 @@ main section h2 {
   font-size: 2rem;
 }
 
+.confiavel {
+  margin-bottom: 0;
+}
+
 footer {
   height: 150px;
-  margin-top: 40px;
   background-color: #23272a;
 }
