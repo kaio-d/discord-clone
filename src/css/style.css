@@ -4,13 +4,14 @@
 body {
   background-color: #fff;
   min-width: 428px;
+  max-width: 2048px;
 }
 
 header {
   background-image: url("../imagens/header-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 505px;
+  height: 550px;
   padding: 70px 0 70px 24px;
 }
 
@@ -88,7 +89,6 @@ main section h2 {
   width: 378px;
 }
 
-
 .section_four h2 {
   font-family: "Luckiest Guy", cursive;
   font-weight: 400;
@@ -102,4 +102,51 @@ main section h2 {
 footer {
   height: 150px;
   background-color: #23272a;
+}
+
+nav ul {
+  display: none;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+.button-nav {
+  background-color: #fff;
+  min-width: 125px;
+  cursor: pointer;
+  height: 35px;
+  border-radius: 28px;
+  border: none;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 75px;
+  gap: 25px;
+}
+
+.menu {
+  cursor: pointer;
+  position: relative;
+  width: 45px;
+  align-items: center;
+  bottom: 8px;
+}
+
+.nav-list.show {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
